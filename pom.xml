@@ -10,6 +10,8 @@
 
 	<modules>
 		<module>cloud-alibaba-config</module>
+		<module>cloud-alibaba-user</module>
+		<module>cloud-alibaba-sso</module>
 		<module>cloud-alibaba-copy</module>
 	</modules>
 
