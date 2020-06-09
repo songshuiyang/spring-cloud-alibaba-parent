@@ -24,11 +24,11 @@ spring-cloud-alibaba 练习项目
 
 * 可以通过下面的界面来动态设置配置
 
-![](docment/image/nacos-config.png)
+![](https://github.com/songshuiyang/spring-cloud-alibaba-parent/blob/master/docment/image/nacos-config.png)
 
 * 查看已注册的服务，服务调用可以通过`RestTemplate`或者`FeignClient`来实现
 
-![](docment/image/nacos-server.jpg)
+![](https://github.com/songshuiyang/spring-cloud-alibaba-parent/blob/master/docment/image/nacos-server.jpg)
 
 ### 文档
 
