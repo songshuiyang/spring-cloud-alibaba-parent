@@ -19,10 +19,20 @@ spring-cloud-alibaba 练习项目
 * com.alibaba.cloud
     * [spring-cloud-starter-alibaba-nacos-config](https://nacos.io/zh-cn/)  （配置中心）
     * [spring-cloud-starter-alibaba-nacos-discovery](https://nacos.io/zh-cn/) （服务注册发现）
-    
+
+#### Nacos控制台
+
+* 可以通过下面的界面来动态设置配置
+
+![](docment/image/nacos-config.png)
+
+* 查看已注册的服务，服务调用可以通过`RestTemplate`或者`FeignClient`来实现
+
+![](docment/image/nacos-server.jpg)
+
 ### 文档
 
-#### [Nacos](https://nacos.io/zh-cn/)   
+#### [Nacos官网](https://nacos.io/zh-cn/)   
 
 * Nacos 的关键特性包括:
     * 服务发现和服务健康监测
