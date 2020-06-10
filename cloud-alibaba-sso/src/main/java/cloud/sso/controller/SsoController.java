@@ -17,7 +17,19 @@ public class SsoController {
 
     @GetMapping
     public String getToken() {
+        try {
+            Thread.sleep(random() * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return UUID.randomUUID().toString().replace("-","");
+    }
+
+    // 生成0-10的数字
+    public static int random() {
+        java.util.Random random = new java.util.Random();
+        int result = random.nextInt(10);
+        return result + 1;
     }
 
 }

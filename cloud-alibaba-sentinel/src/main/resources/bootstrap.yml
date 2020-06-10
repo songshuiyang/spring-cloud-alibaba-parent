@@ -1,0 +1,19 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: cloud-alibaba-sentinel
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+feign:
+  sentinel:
+    enabled: true
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+logging:
+  level: debug

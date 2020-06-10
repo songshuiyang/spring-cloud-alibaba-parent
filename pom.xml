@@ -12,7 +12,7 @@
 		<module>cloud-alibaba-config</module>
 		<module>cloud-alibaba-user</module>
 		<module>cloud-alibaba-sso</module>
-		<module>cloud-alibaba-copy</module>
+		<module>cloud-alibaba-sentinel</module>
 	</modules>
 
 	<parent>
