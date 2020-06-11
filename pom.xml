@@ -13,6 +13,7 @@
 		<module>cloud-alibaba-user</module>
 		<module>cloud-alibaba-sso</module>
 		<module>cloud-alibaba-sentinel</module>
+		<module>cloud-alibaba-seata</module>
 	</modules>
 
 	<parent>
