@@ -31,5 +31,3 @@ seata:
     grouplist:
       default: 127.0.0.1:8091
     disable-global-transaction: false
-logging:
-  level: debug

@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.songsy.springcloud.alibaba.seata</groupId>
-    <artifactId>storage-service</artifactId>
+    <artifactId>seata-storage-service</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
 

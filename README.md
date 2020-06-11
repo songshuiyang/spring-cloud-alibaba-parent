@@ -36,15 +36,16 @@ Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。�
 
 ### 使用技术
 
-* Spring Boot 1.5.7.RELEASE
+* Spring Boot 2.2.5.RELEASE
 
-* Spring Cloud Edgware.SR2
-    * spring-cloud-starter-feign
+* Spring Cloud Hoxton.SR3
     
 * com.alibaba.cloud
     * [spring-cloud-starter-alibaba-nacos-config](https://nacos.io/zh-cn/)  （配置中心）
     * [spring-cloud-starter-alibaba-nacos-discovery](https://nacos.io/zh-cn/) （服务注册发现）
     * [spring-cloud-starter-alibaba-sentinel](https://github.com/alibaba/Sentinel/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8#%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90)（流量控制，熔断降级）
+
+* 版本对应关系参考 ： https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E
 
 #### Nacos控制台
 
@@ -118,3 +119,6 @@ spring:
 #### [Seata文档](http://seata.io/zh-cn/index.html)
 
 * Seata 是一款开源的分布式事务解决方案，致力于在微服务架构下提供高性能和简单易用的分布式事务服务
+
+
+## 其他
