@@ -29,7 +29,7 @@ Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。�
 |    子模块      |       描述      |    
 |:----------|:------------- |
 |   cloud-alibaba-config   |   使用nacos作为配置中心    | 
-|   cloud-alibaba-seata   |   分布式事务解决方案    | 
+|   cloud-alibaba-seata   |   分布式事务解决方案（测试代码还会报错TODO）    | 
 |   cloud-alibaba-sentinel   |   流量控制，熔断降级，系统负载    | 
 |   cloud-alibaba-sso   |    使用nacos作为服务发现   | 
 |   cloud-alibaba-user   |    使用nacos作为服务发现   | 
@@ -120,5 +120,6 @@ spring:
 
 * Seata 是一款开源的分布式事务解决方案，致力于在微服务架构下提供高性能和简单易用的分布式事务服务
 
+* https://github.com/seata/seata-samples/blob/master/doc/quick-integration-with-spring-cloud.md
 
 ## 其他
